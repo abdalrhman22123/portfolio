@@ -1,0 +1,71 @@
+:root
+{
+    --bg-color:#151515;
+    --font-color1:#ffffff;
+    --font-size:1.3vw;
+    --bg-color2:#952323;
+     --font-size2:1.5vw;
+}
+
+
+body
+{
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    background-color: var(--bg-color);
+}
+li
+{
+    list-style-type: none;
+}
+.head
+{
+    display: flex;
+    justify-content: center;
+    gap: 330px;
+}
+.menu
+{
+    display: flex;
+    gap: 50px;
+    color: var(--font-color1);
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 2.4%;
+  font-size: var(--font-size);
+}
+.logo
+{
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.lets
+{
+  color: var(--font-color1);
+  font-family: "blowbrush";
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 2.4%;
+  margin-right: 3%;
+  font-size: var(--font-size);
+  background-color: var(--bg-color2);
+  text-align: center;
+  width: 90px;
+  height: 30px;
+  padding-top: 3px;
+  border-radius: 4px;
+}
+.bg
+{
+    width: 24%;
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 76%;
+    z-index: -1;
+}
+@font-face {
+    font-family:font ;
+    src: url(../font/blowbrush.otf);
+}

@@ -1,0 +1,62 @@
+:root
+{
+    --bg-color:#151515;
+    --font-color1:#ffffff;
+    --font-size:1.3vw;
+    --bg-color2:#952323;
+     --font-size2:1.5vw;
+}
+
+.bg
+{
+    width: 24%;
+    margin-top: -6.8%;
+    position: absolute;
+    margin-left: 76%;
+    z-index: -1;
+}
+.portfolio
+{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  justify-content: center;
+  margin-top: 7%;
+}
+.port{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:var(--font-color1);
+    font-size: 240px;
+    color: transparent;
+    text-align: center;
+    line-height: 1px;
+}
+.folio 
+{
+    color: var(--font-color1);
+    font-size: 240px;
+    text-align: center;
+    line-height: 1px;
+}
+.ux
+{
+    color: var(--font-color1);
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2vw;
+  margin-left: 5%;
+  margin-top: 9%;
+}
+.date
+{
+    position: absolute;
+    color: #952323;
+    font-family: font;
+    font-size: 5vw;
+    transform: rotate(-10.098deg);
+    margin-left: 84.9%;
+    margin-top: 1%;
+}

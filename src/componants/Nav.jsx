@@ -1,0 +1,22 @@
+import React, { Component } from 'react';
+import "./Nav.css"
+import logo from "../assets/logo.svg"
+import "../font/blowbrush.otf"
+const Nav = () => {
+    return ( 
+        <>
+         <header class="head">
+        <img class="logo" src={logo}></img>
+        <ul class="menu">
+            <li>Home</li>
+            <li>Portfolio</li>
+            <li>About me</li>
+            <li> Contact me</li>
+        </ul>
+        <div class="lets">LET'S TALK</div>
+       </header>
+               </>
+     );
+}
+ 
+export default Nav;
