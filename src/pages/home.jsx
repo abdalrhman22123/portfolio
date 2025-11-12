@@ -6,6 +6,7 @@ import Head from '../componants/Main';
 import About from '../componants/about';
 import Work from '../componants/Work';
 import Cont from '../componants/contact';
+import Foot from '../componants/footer';
 const Main = () => {
     return ( 
         <>
@@ -14,6 +15,7 @@ const Main = () => {
         <About />
         <Work />
         <Cont />
+        <Foot />
         </>
      );
 }
