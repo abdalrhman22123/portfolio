@@ -1,0 +1,21 @@
+.wor
+{
+    font-family: font;
+    color: var(--font-color1);
+    font-size: 4.5vw;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.logos
+{
+width: 65.8%;
+margin-left: 17%;
+}
+.job
+{
+    display: flex;
+    gap: 2%;
+    /* width: 90%; */
+    margin-left: 17%;
+}

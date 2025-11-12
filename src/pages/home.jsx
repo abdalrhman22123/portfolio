@@ -4,12 +4,14 @@ import "./Home.css"
 import Nav from '../componants/Nav';
 import Head from '../componants/Main';
 import About from '../componants/about';
+import Work from '../componants/Work';
 const Main = () => {
     return ( 
         <>
         <Nav />
         <Head />
         <About />
+        <Work />
         </>
      );
 }
