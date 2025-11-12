@@ -5,6 +5,7 @@ import Nav from '../componants/Nav';
 import Head from '../componants/Main';
 import About from '../componants/about';
 import Work from '../componants/Work';
+import Cont from '../componants/contact';
 const Main = () => {
     return ( 
         <>
@@ -12,6 +13,7 @@ const Main = () => {
         <Head />
         <About />
         <Work />
+        <Cont />
         </>
      );
 }

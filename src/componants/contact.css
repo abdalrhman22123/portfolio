@@ -1,0 +1,127 @@
+ :root
+{
+    --bg-color:#151515;
+    --font-color1:#ffffff;
+    --font-size:1.3vw;
+    --bg-color2:#952323;
+     --font-size2:1.5vw;
+}
+ .cont
+{
+    font-family: font;
+    color: var(--font-color1);
+    font-size: 4.5vw;
+    text-align: center;
+    margin-top: 2%;
+}
+.contact-section {
+  /* background-color: #111; */
+  color: #f1f1f1;
+  padding: 60px 10%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+/* Left Info */
+.contact-info {
+  flex: 1 1 300px;
+}
+
+.contact-info h2 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 0.95rem;
+  color: #ccc;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.info-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.info-item i {
+  font-size: 1.3rem;
+  color: #b00; /* red accent */
+  background-color: #2a2a2a;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.info-item h4 {
+  color: #fff;
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+
+.info-item p {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+/* Right Form */
+.contact-form {
+  flex: 1.2 1 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  background-color: #333;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 16px;
+  color: #fff;
+  font-size: 0.95rem;
+  outline: none;
+  transition: 0.3s;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #999;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: #444;
+}
+
+/* Button */
+.contact-form button {
+  align-self: flex-start;
+  background-color: #b00;
+  color: #fff;
+  border: 2px solid #b00;
+  border-radius: 25px;
+  padding: 10px 25px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: transparent;
+  color: #b00;
+}
