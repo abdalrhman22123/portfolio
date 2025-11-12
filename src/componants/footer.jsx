@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./footer.css"
 import logo from "../assets/logo.svg"
-const Foot = () => {
+const Foot = ( ) => {
     return ( 
         <>
         <footer class="footer">
