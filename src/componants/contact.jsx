@@ -40,7 +40,7 @@ const Cont = () => {
       </div>
     </div>
     <div class="contact-form">
-      <div class="form-row">
+      <div class="form-row"> 
         <input type="text" placeholder="Your Name" required></input>
         <input type="email" placeholder="Your Email" required></input>
       </div>
