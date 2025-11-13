@@ -9,7 +9,7 @@ const Nav = () => {
         <img class="logo" src={logo}></img>
         <ul class="menu">
             <li>Home</li>
-            <li>Portfolio</li>
+            <a href="http://" target="_blank" rel="noopener noreferrer"><li>Portfolio</li></a>
             <li>About me</li>
             <li> Contact me</li>
         </ul>

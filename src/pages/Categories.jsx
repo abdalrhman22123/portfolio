@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import Nav from '../componants/Nav';
+import Proj from '../componants/projs';
 
-const Aboutt = () => {
+const Details = () => {
     return ( 
         <>
-        <div>abdalrhman</div>
+        <Nav />
+        <Proj />
         </>
      );
 }
  
-export default Aboutt;
+export default Details;

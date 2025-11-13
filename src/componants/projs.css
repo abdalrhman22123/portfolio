@@ -1,0 +1,39 @@
+.adds
+{
+    color: white;
+    display: flex;
+    gap: 50px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 17%;
+    left:39%;
+}
+.appss
+{
+    color: #d19e33;
+}
+.jobs
+{
+    width: 80%;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+.link
+{
+    text-decoration: none;
+}
+.all
+{
+    color: #ffffff;
+}
+.alls
+{
+    position: absolute;
+    width: 80%;
+    top: 25%;
+    left: 10%;
+}
